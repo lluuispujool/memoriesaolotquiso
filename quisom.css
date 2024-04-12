@@ -1,0 +1,35 @@
+*{
+    background-color: blanchedalmond;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.membre{
+    display: flex;
+    margin-top: -10px;
+}
+#fotom1{
+    margin: 30px;
+    margin-left: 50px;
+}
+#introducció{
+    margin: 50px;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 2;
+}
+#inici{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    vertical-align: middle;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/860/860825.png');
+    background-size: cover;
+    background-position: center;
+}
+.presentació{
+    margin-top: 20px;
+}

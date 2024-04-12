@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATRIMONI OLOTÍ</title>
+    <link rel="stylesheet" href="./quisom.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+    <div>
+        <a id = "inici" href="https://lluuispujool.github.io/memoriesaolot/xartinici.html"></a>
+    </div>
+    <header>
+        <p>PARTICIPANTS DE L'AUDIOVISUAL MEMORIES DE LA GUERRA A LA GARROTXA</p>
+    </header>
+    <div id = introducció>
+        <p>Hola a tots i totes, nosaltres som el cos de Tecnos Productions i hem gravat, editat i publicat el nostre documental anomenat Memories de la Guerra a la Garrotxa. Tecnos Productions són un grup de 11 estudiants de la assginatura de segon de batxillerat que estem cursant la assginatura de història. A continuació podras saber qui som i una mica quina feina ha fet cada membre de l'equip! </p>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/N7SJHM7/WIN-20240223-09-50-39-Pro.jpg" width="150px" alt="">
+        </div>
+        <div class = "presentació">
+            <p> JOEL BOSCH <br> coordinador de grup / productor / actor </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/CsH6W4S/WIN-20240223-09-54-18-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> ROGER DOT <br> Guionització / Tècnic de so / Codirector / Edició autovisual / Director audiovisual </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/Ky76Ch7/WIN-20240223-09-54-31-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> FERRAN PINATELLA <br> Guionització / Tècnic de so / Codirector / Edició autovisual / Director audiovisual </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/5MFvnhn/WIN-20240223-10-10-25-Pro.jpg" width="150px" alt="">
+        </div>
+        <div class = "presentació">
+            <p> LLUÍS PUJOL <br> Guionització de l'estructura de la pàgina web / Director del codi font de la pàgina web / Programador / Sub-Codirectora</p>
+        </div>
+    </div>
+    
+    <div class = membre>
+        <div id = fotom1> 
+        <img src="https://i.ibb.co/KDrxCZ8/WIN-20240223-09-54-57-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> JOSEP MONELLS <br> Ajudant tant del cos de la pàgina web com del cos audiovisual</p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/cgkn536/WIN-20240223-09-50-08-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> PAU SOY <br> dinamitzador de grup / tècnic d'imatge </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/bgB5kfC/WIN-20240226-14-46-53-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> CARME ARCOS <br> Entrevistadora / Psicologa del grup / Sub-Codirectora  </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/WzLhCbf/WIN-20240223-09-49-58-Pro-2.jpg" width="150px" alt="">
+        </div>
+        <div class = "presentació">
+            <p> ÈRIC SALA <br>Guionització de l'estructura de la pàgina web / Director del codi font de la pàgina web / Programador </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/cNgr5rm/WIN-20240223-09-53-08-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> PAU SOLER <br> Editor del video </p>
+        </div>
+    </div>
+    <div class = membre>
+        <div id = fotom1>
+        <img src="https://i.ibb.co/KhDBfCT/WIN-20240223-09-53-24-Pro.jpg" width="150px">
+        </div>
+        <div class = "presentació">
+            <p> LLUC PONT <br> Editor del video </p>
+        </div>
+    </div>
+</body>
+</html>
